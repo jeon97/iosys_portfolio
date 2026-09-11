@@ -4,6 +4,10 @@
 
 원본 코드와 변경 이력을 대조하여 담당 범위를 정리하고, 채용 담당자가 처리 방식까지 확인할 수 있도록 코드와 테스트를 연결하였습니다. 회사 원본은 공개하지 않고 업무 흐름을 독립적인 예제로 작성하였습니다.
 
+## 전체 참여 업무
+
+[참여 프로젝트 21개 항목](docs/CAREER-COVERAGE.md)에 신규 개발·고도화·공통 유지보수 업무를 정리하였습니다. [IGTC Spring Boot 전환](https://github.com/jeon97/iosys_realtime_assessment_platform/blob/main/docs/MODERNIZATION.md), [KBI 주관식 채점](https://github.com/jeon97/iosys_education_business_operations_system/blob/main/docs/TRAINING-GRADING.md), [AIDT 접근성 검토](https://github.com/jeon97/iosys_online_test_platform/blob/main/docs/AIDT-COMPATIBILITY.md), [운영 화면 개선·현장 지원](docs/ADDITIONAL-WORK.md)을 추가하였습니다.
+
 ## 프로젝트별 담당 업무
 
 | 프로젝트 | 담당 범위 | 기술 | 상세 |
@@ -33,7 +37,7 @@
 
 역할 지시문·입력·응답 필드 설명을 받는 API를 구현하였습니다. 모델 응답의 JSON 문법 오류는 제한된 횟수만 재시도하고, 일괄 처리에서는 저장된 결과 파일의 점수 열로 완료 행을 구분하여 미완료 행을 계속 처리하였습니다.
 
-## 원본 기반 예제 24개
+## 업무 흐름을 재작성한 구현 사례
 
 각 항목의 상세 문서에는 입력·처리 순서·결과·테스트와 공개 예제에서 보완한 규칙을 구분하였습니다. 기존 예제도 각 프로젝트 저장소에서 함께 확인할 수 있습니다.
 
@@ -46,7 +50,7 @@
 | 교육사업 운영 시스템 | 전체 모집 정원과 물리 좌석 조건 분리 / 예산 원안과 선택한 변경 이력의 상세 조회 / 정산 반려 안내와 승인 후 값 갱신 구분 / 보고서 미리보기와 출력 요청 이력 구분 | [처리 과정과 코드](https://github.com/jeon97/iosys_education_business_operations_system/blob/main/docs/CASE-STUDIES.md) |
 | 범용 AI API | 업무별 설명을 받는 공통 응답 형식 구성 / JSON 문법 오류만 제한적으로 재시도 / 저장된 결과 행을 이용한 일괄 평가 재개 / 평가 데이터셋의 불필요한 행 제거 | [처리 과정과 코드](https://github.com/jeon97/iosys_ai_api/blob/main/docs/CASE-STUDIES.md) |
 
-전체 코드 목록은 [구현 사례 목차](docs/EXAMPLE-CATALOG.md)에 정리하였습니다.
+기존에 확장한 24개 사례에 집합연수 4개, 수험표 1개, 운영 요청 화면 1개를 추가하여 **30개 재작성 사례**를 연결하였습니다. 이 수치는 이전부터 있던 모든 예제 파일 수를 뜻하지 않습니다. 전체 코드 목록은 [구현 사례 목차](docs/EXAMPLE-CATALOG.md)에 정리하였습니다.
 
 ## 전체 업무 구성
 

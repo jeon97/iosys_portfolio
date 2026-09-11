@@ -1,6 +1,6 @@
 # 구현 사례 목차
 
-원본에서 확인한 업무 흐름을 기준으로 6개 프로젝트에 24개 사례를 추가하였습니다. 각 링크는 독립 작성한 공개 예제이며 원본 회사 코드로 연결되지 않습니다.
+원본에서 확인한 업무 흐름을 기준으로 먼저 6개 프로젝트의 24개 사례를 작성하고, 경력기술서 대조 후 6개를 추가하여 총 30개 재작성 사례를 정리하였습니다. 각 링크는 독립 작성한 공개 예제이며 원본 회사 코드로 연결되지 않습니다.
 
 ## 실시간 평가 플랫폼
 
@@ -67,3 +67,16 @@
 | 평가 데이터셋의 불필요한 행 제거 | [dataset_filter](https://github.com/jeon97/iosys_ai_api/blob/main/app/cases/dataset_filter.py) | [검증 코드](https://github.com/jeon97/iosys_ai_api/blob/main/tests/test_source_cases.py) |
 
 [처리 과정](https://github.com/jeon97/iosys_ai_api/blob/main/docs/CASE-STUDIES.md) · [원본과 예제 구분](https://github.com/jeon97/iosys_ai_api/blob/main/docs/SOURCE-SCOPE.md)
+
+## 경력기술서 대조 후 추가한 사례 6개
+
+| 프로젝트 | 구현 사례 | 코드·입출력·검증 |
+|---|---|---|
+| KBI 집합연수 | 문항별 점수 저장과 채점 요약 갱신 | [상세와 코드](https://github.com/jeon97/iosys_education_business_operations_system/blob/main/docs/TRAINING-GRADING.md) |
+| KBI 집합연수 | 엑셀 전체 행 검증 후 성적 반입 | [상세와 코드](https://github.com/jeon97/iosys_education_business_operations_system/blob/main/docs/TRAINING-GRADING.md) |
+| KBI 집합연수 | 관리자·채점자별 완료·취소 | [상세와 코드](https://github.com/jeon97/iosys_education_business_operations_system/blob/main/docs/TRAINING-GRADING.md) |
+| KBI 집합연수 | 화면 점수 반올림·배점 제한 | [상세와 코드](https://github.com/jeon97/iosys_education_business_operations_system/blob/main/docs/TRAINING-GRADING.md) |
+| 온라인 시험 | 수험표의 응시 구분과 사진·약도 선택 | [상세와 코드](https://github.com/jeon97/iosys_online_test_platform/blob/main/docs/REPORT-PRESENTATION.md) |
+| 공통 운영 개선 | 회사별 담당자·프로젝트 선택 목록 | [상세와 코드](ADDITIONAL-WORK.md) |
+
+각 상세 문서에서 현재 원본 동작, 개인 기여 확인 수준과 공개 예제의 보완을 구분하였습니다. 앞선 24개를 포함한 재작성 사례는 30개이며, 기존부터 있던 모든 코드 예제 파일을 집계한 수치는 아닙니다.

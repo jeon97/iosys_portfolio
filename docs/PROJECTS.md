@@ -67,3 +67,7 @@ FastAPI·Ollama 호출, 입력 정제, JSON 파싱·재시도와 일괄 평가�
 - 평가 데이터셋의 불필요한 행 제거: 문자열이 아닌 값, 식별자만 있는 데이터와 정제 후 내용이 너무 짧은 행을 제외하고, HTML의 스크립트·스타일·화면 요소를 제거하여 본문을 추출하도록 구성하였습니다.
 
 [상세 저장소](https://github.com/jeon97/iosys_ai_api) · [구현 사례](https://github.com/jeon97/iosys_ai_api/blob/main/docs/CASE-STUDIES.md) · [확인 근거](https://github.com/jeon97/iosys_ai_api/blob/main/docs/SOURCE-SCOPE.md)
+
+## 추가 참여 프로젝트와 공통 업무
+
+[전체 참여 목록](CAREER-COVERAGE.md)에서 21개 경력 항목을 확인할 수 있습니다. [운영 화면 개선과 현장 지원](ADDITIONAL-WORK.md)은 별도 상세 저장소가 없는 공통 업무로 정리하였습니다.
